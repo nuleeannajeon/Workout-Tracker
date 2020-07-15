@@ -1,22 +1,26 @@
 {
   "name": "workout-tracker",
   "version": "1.0.0",
-  "description": "# Unit 17 Nosql Homework: Workout Tracker",
+  "description": "## Description The application \"Workout Tracker\" will allows users to be able to view create and track daily workouts, also to be able to log multiple exercises in a workout on a given day. Further on, it will allows to track the name, type, weight, sets, reps, and duration of exercise.",
   "main": "server.js",
-  "dependencies": {
-    "mongoose": "^5.9.24"
-  },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "seed": "node seeders/seed.js"
   },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongoose": "^5.3.16",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nuleeannajeon/Workout-Tracker.git"
   },
-  "author": "",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/nuleeannajeon/Workout-Tracker/issues"
   },
