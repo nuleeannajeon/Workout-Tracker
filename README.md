@@ -10,6 +10,9 @@ The user should be able to:
   * View multiple the combined weight of multiple exercises on the `stats` page.
 
 ### Demo
+### Heroku URL
+[Click Here to checkout a deployed application](https://classique-monsieur-44499.herokuapp.com/)
+### Screenshots
 ![Workout-Tracker](public/assets/screenshot1.png)
 ![Workout-Tracker](public/assets/screenshot2.png)
 
