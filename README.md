@@ -9,7 +9,7 @@ The user should be able to:
   * Add new exercises to a new workout plan.
   * View multiple the combined weight of multiple exercises on the `stats` page.
 
-### Demo
+## Demo
 ### Heroku URL
 [Click Here to checkout a deployed application](https://classique-monsieur-44499.herokuapp.com/)
 ### Screenshots

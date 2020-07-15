@@ -40,7 +40,7 @@ app.put("/api/workouts/:id", ({ body, params }, res) => {
     console.log(`-----BODY------`, body.reps)
     db.Workout.findByIdAndUpdate(
         params.id,
-        { $push: { exercises: body }, $inc: { totlaDuration: body.duration }},
+        { $push: { exercises: body }, $inc: { totalDuration: body.duration }},
         { new: true, runValidators: true }
     )
         .then(data => {

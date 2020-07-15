@@ -1,13 +1,7 @@
 async function initWorkout() {
   const lastWorkout = await API.getLastWorkout();
   console.log("Last workout:", lastWorkout);
-  // if (lastWorkout) {
-  // } 
-  if (lastWorkout.totalDuration === 0) {
-    console.log(lastWorkout.totalDuration)
-    renderNoWorkoutText()
-  }
-  else {
+  if (lastWorkout) {
     document
     .querySelector("a[href='/exercise?']")
     .setAttribute("href", `/exercise?id=${lastWorkout._id}`);
@@ -20,6 +14,9 @@ async function initWorkout() {
     };
 
     renderWorkoutSummary(workoutSummary);
+  }
+  else {
+      renderNoWorkoutText()
     }
 }
 
